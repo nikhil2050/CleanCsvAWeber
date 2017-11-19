@@ -37,7 +37,7 @@ public class TempClass {
 //            Document doc = Jsoup.parse(xmlInput.replaceAll("\n", ""), "", Parser.xmlParser());          // doc.toString()
             System.out.println("XML OUTPUT :: ");
             Document doc = Jsoup.parseBodyFragment(xmlInput.replaceAll("\n", ""));
-            System.out.println(htmlWriter.write(doc.toString().replaceAll(">\\s+",">").replaceAll("\\s+<","<")););
+//            System.out.println(htmlWriter.write(doc.toString().replaceAll(">\\s+",">").replaceAll("\\s+<","<")););
         }
         
 }
